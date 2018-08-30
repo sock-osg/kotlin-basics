@@ -13,7 +13,7 @@ fun logVideoQuatile(player: VideoPlayer?) {
           in 97..99 -> Pair(3, .97f)
           100 -> Pair(4, 1f)
           else -> Pair(-1, -1f)
-        }
+        } 
     println("Quartile is $quartile an percent is $percentQuatile")
   }
 }
